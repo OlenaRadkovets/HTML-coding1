@@ -1,0 +1,121 @@
+.tm-mb-30 {
+    margin-bottom: 30px;
+}
+
+.tm-bg-color-primary {
+    background-color: #76cdd8;
+}
+
+.tm-col-md-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tm-text-color-primary {
+    color: #666666;
+}
+
+.tm-md-flex-center>.mb-4 {
+    color: #76cdd8;
+}
+
+.tm-quote {
+    font-size: 21px;
+    letter-spacing: -0.4px;
+}
+
+.mb-4+.tm-quote {
+    font-size: 20px;
+}
+
+.tm-text-color-primary~p {
+    font-size: 17px;
+}
+
+.btn {
+    background-color: #019999;
+    border: none;
+}
+
+.tm-bg-color-secondary {
+    background-color: #019999;
+}
+
+.tm-pricing-table {
+    border: 1px solid #019999;
+}
+
+.tm-form-header {
+    top: 55px;
+    background-color: #24d4d4;
+}
+
+.tm-contact-form {
+    z-index: 1;
+}
+
+.tm-form-footer {
+    top: -55px;
+}
+
+.tm-card:hover {
+    color: #76cdd8;
+}
+
+.tm-card:hover::after {
+    content: '';
+    position: absolute;
+    left: 91.3%;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid #76cdd8;
+    border-top: 50px solid #76cdd8;
+    border-bottom: 50px solid transparent;
+}
+
+.tm-col-md-reverse:hover::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid #76cdd8;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #76cdd8;
+    border-bottom: 50px solid transparent;
+}
+
+.btn:hover {
+    background-color: rgb(118, 205, 216);
+}
+
+.tm-pricing-body:hover>.btn-secondary {
+    background-color: #24d4d4;
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-pricing-body:hover>.tm-pricing-discount {
+    display: block;
+}
+
+.tm-pricing-discount__star {
+    color: red;
+}
+
+.tm-pricing-discount__text {
+    color: #24d4d4;
+    font-weight: bold;
+}
+
+.form-group:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+    background-color: rgb(118, 205, 216);
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
